@@ -54,6 +54,11 @@ public:
 	DuckLakeTableInfoFunction();
 };
 
+class DuckLakeColumnInfoFunction : public DuckLakeBaseMetadataFunction {
+public:
+	DuckLakeColumnInfoFunction();
+};
+
 class DuckLakeTableInsertionsFunction {
 public:
 	static TableFunctionSet GetFunctions();

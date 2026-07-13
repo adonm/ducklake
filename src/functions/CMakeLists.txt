@@ -17,6 +17,7 @@ add_library(
   ducklake_settings.cpp
   ducklake_table_changes.cpp
   ducklake_table_info.cpp
+  ducklake_column_info.cpp
   ducklake_table_insertions.cpp
   ducklake_murmur3.cpp)
 set(ALL_OBJECT_FILES

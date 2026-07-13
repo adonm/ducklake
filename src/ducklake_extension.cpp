@@ -55,6 +55,9 @@ static void LoadInternal(ExtensionLoader &loader) {
 	DuckLakeTableInfoFunction table_info;
 	loader.RegisterFunction(table_info);
 
+	DuckLakeColumnInfoFunction column_info;
+	loader.RegisterFunction(column_info);
+
 	auto table_insertions = DuckLakeTableInsertionsFunction::GetFunctions();
 	loader.RegisterFunction(table_insertions);
 
